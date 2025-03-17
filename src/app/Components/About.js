@@ -228,7 +228,7 @@ const About = () => {
                   </div>
                   <div>
                     <Link
-                      href="https://www.conscionestates.com/"
+                      href="https://manvitha-portfolio.vercel.app//"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-lg font-semibold text-blue-400 hover:text-blue-300 transition"
