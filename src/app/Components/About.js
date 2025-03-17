@@ -171,7 +171,7 @@ const About = () => {
                 {/* Resume Link */}
                 <div className="mt-4 sm:mt-6">
                   <Link
-                    href="https://drive.google.com/file/d/1a4Ny9YWwTnxhkAZKkyDLKWyf6I9W3hdw/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/113lUtLT1VpAeeIS85zxZYWIvVtb4lItG/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm sm:text-base cursor-pointer hover:text-blue-400"
