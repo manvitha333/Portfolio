@@ -189,6 +189,34 @@ const About = () => {
               >
                  <h1 className="block sm:hidden text-xl font-bold mb-[10px] font-[Poppins]">Projects</h1>
                 {/* Project items with responsive flex layout and modern styling */}
+
+
+                 
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-[20px] bg-[#1E1E2E] p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                  <div className="w-full sm:w-auto sm:flex-shrink-0 flex justify-center">
+                    <Image
+                      src="/images/MedMate.png"
+                      width={150}
+                      height={100}
+                      alt="MedMate"
+                      className="w-full sm:w-[150px] h-auto object-cover rounded-lg border-3 border-[gray]"
+                    />
+                  </div>
+                  <div>
+                    <Link
+                      href="https://elaborate-gumdrop-a0dbf7.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lg font-semibold text-blue-400 hover:text-blue-300 transition"
+                    >
+                      MedMate<span className="inline-block">↗</span>
+                    </Link>
+                    <p className="text-gray-400 text-sm sm:text-base mt-1">
+                    This is the application currently im working on. It is a web application that provides a platform for users to search and find information about various medicines, including their uses, side effects, and precautions.
+                    </p>
+                  </div>
+                </div>
+
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-[20px] bg-[#1E1E2E] p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
                  
                   <div className="w-full sm:w-auto sm:flex-shrink-0 flex justify-center">
